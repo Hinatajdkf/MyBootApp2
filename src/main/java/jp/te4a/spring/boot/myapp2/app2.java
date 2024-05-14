@@ -1,12 +1,8 @@
 package jp.te4a.spring.boot.myapp2;
 
-/**
- * Hello world!
- *
- */
 @RestController
-public class helloController 
-{
+public class app2 {
+
     @RequestMapping("/taro")
     public String index(){
         return "Sato desu!";
